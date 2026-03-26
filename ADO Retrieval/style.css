@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4c4ff;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: #ccc;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #e6ffe6;
+}
+
+
+.statusMsg {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.okMsg {
+    color: darkgreen;
+}
+
+.errorMsg {
+    color: darkred;
+}
+
+footer{
+    text-align: center;
+}
