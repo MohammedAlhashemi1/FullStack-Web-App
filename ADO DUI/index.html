@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA09 - ADO Data Manipulation</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<h2>ASP ADO Assignment 09 - Data Manipulation</h2>
+
+<div id="studentsArea"></div>
+<div id="classesArea"></div>
+
+<!-- Add Student UI -->
+<div id="addArea">
+    <table class="styled-table">
+        <tr>
+            <td>Student FirstName:</td>
+            <td><input id="addFirst" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td>Student LastName:</td>
+            <td><input id="addLast" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td>School ID:</td>
+            <td><input id="addSchool" placeholder="School ID"></td>
+        </tr>
+        <tr>
+            <td>Class ID:</td>
+            <td>
+                <select id="addClasses" multiple size="5"></select>
+            </td>
+        </tr>
+    </table>
+
+    <button type="button" id="btnAddStudent">Add Student</button>
+    <div id="addStatus" class="statusMsg"></div>
+</div>
+</body>
+</html>
