@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia;
+    color: #600000;
+}
+
+.headerBox {
+    border: 3px solid #600000;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+h1, h2, h3 {
+    color: #600000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px auto;
+}
+
+th, td {
+    border: 1px solid #600000;
+    padding: 6px;
+    text-align: center;
+}
+
+.btnDelete {
+    background-color: #900;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.btnPrimary {
+    background-color: #900;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    margin-top: 10px;
+}
+
+.formContainer {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer input, .formContainer select {
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+.msg {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
