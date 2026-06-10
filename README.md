@@ -1,26 +1,32 @@
-# Order Management System (ASP.NET + Entity Framework)
+# Order Management System
 
-## Description
-A web-based application for managing customer orders. The system allows users to create, view, update, and delete orders using ASP.NET and Entity Framework.
+A full-stack web application for managing customer orders with full CRUD (Create, Read, Update, Delete) functionality.
 
-## Technologies Used
-- C#
-- ASP.NET
-- Entity Framework
+## Tech Stack
+
+- C# / ASP.NET
+- Entity Framework Core
 - SQL Server
 - HTML, CSS, JavaScript
 
 ## Features
-- Create new orders
-- View existing orders
-- Update order details
+
+- Create new customer orders
+- View all existing orders
+- Edit and update order details
 - Delete orders
-- Database integration using Entity Framework
+- Relational database integration with Entity Framework
 
-## How to Run
-1. Open the project in Visual Studio
-2. Configure the database connection
-3. Run the application
+## Getting Started
 
-## Notes
-This project was developed as part of a full-stack web development course, focusing on database integration and CRUD operations.
+### Prerequisites
+
+- Visual Studio 2022
+- SQL Server
+
+### Setup
+
+1. Clone the repo and open the solution in Visual Studio
+2. Update the connection string in `appsettings.json` to point to your SQL Server instance
+3. Run database migrations or apply the schema scripts
+4. Build and run the application
